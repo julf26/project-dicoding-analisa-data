@@ -60,7 +60,7 @@ def create_mnth_rent(df):
                 })
     return mnth_rent
 
-all_df = pd.read_csv("hour_clean.csv")
+all_df = pd.read_csv("https://github.com/julf26/project-dicoding-analisa-data/blob/main/hour_clean.csv")
 
 all_df.sort_values(by="dteday", inplace=True)
 all_df.reset_index(inplace=True)
